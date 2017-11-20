@@ -5,8 +5,8 @@ function OnLoad()
 	SelectRoom(0);
 
 
-	roomTitle.innerHTML = roomArray[].title;
-	roomText.innerHTML = roomArray[].text;
+	roomTitle.innerHTML = roomArray[0].title;
+	roomText.innerHTML = roomArray[0].text;
 
 for (var i = 0; i < roomArray[0].choices.length; i++){
 
@@ -17,5 +17,4 @@ for (var i = 0; i < roomArray[0].choices.length; i++){
 
 function SelectRoom(roomIndex)
 {
-
 }
