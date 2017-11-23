@@ -4,17 +4,18 @@ function OnLoad()
 {
 	SelectRoom(0);
 
-
-	roomTitle.innerHTML = roomArray[0].title;
-	roomText.innerHTML = roomArray[0].text;
-
-for (var i = 0; i < roomArray[0].choices.length; i++){
-
-	document.getElementById('roomChoices').innerHTML = "<button onClick = SelectRoom()>"  + roomArray[0].choices[0].text + "</button>";
-}
-
 }
 
 function SelectRoom(roomIndex)
 {
+
+	roomTitle.innerHTML = roomArray[roomIndex].title;
+	roomText.innerHTML = roomArray[roomIndex].text;
+
+	document.getElementById('roomChoices').innerHTML = "";
+
+	for (var i = 0; i < roomArray[roomIndex].choices.length; i++){
+		document.getElementById('roomChoices').innerHTML += "<button onClick='SelectRoom("+roomArray[roomIndex].choices[i].index+")'>"  + roomArray[roomIndex].choices[i].text + "</button>";
+	}
+
 }
