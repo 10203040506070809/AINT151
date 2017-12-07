@@ -1,8 +1,12 @@
 function OnLoad()
 
+
 {
+
 	var keyCard;
 	keyCard == false;
+
+
 	SelectRoom(6);
 
 }
@@ -14,9 +18,9 @@ function SelectRoom(roomIndex)
 	roomText.innerHTML = roomArray[roomIndex].text;
 
 	document.getElementById('roomChoices').innerHTML = "";
-
 	for (var i = 0; i < roomArray[roomIndex].choices.length; i++){
 		document.getElementById('roomChoices').innerHTML += "<button onClick='SelectRoom("+roomArray[roomIndex].choices[i].index+")'>"  + roomArray[roomIndex].choices[i].text + "</button>";
+
 	}
 
 }

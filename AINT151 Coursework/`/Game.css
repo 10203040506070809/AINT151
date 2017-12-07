@@ -1,0 +1,23 @@
+body{background-color: black;}
+*{
+  display: block;
+  margin: auto;
+}
+h3{
+  width:50%;
+}p{
+  font-style: oblique;
+  width:50%;
+
+}
+
+#image1{
+  top: 200px;
+  width:50%;
+  height:30%;
+  }
+
+#image2{
+  width: 20%;
+  height:20%;
+}

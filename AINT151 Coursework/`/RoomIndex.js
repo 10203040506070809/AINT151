@@ -3,7 +3,7 @@ var roomArray = [
 
 		//index 0
 		title:"Cryogenics Room",
-		text:"You are in a large rectangular room, eastern and western walls embedded with bulbous green pods.There's a strange liquid covering most of the floor, which seems to be leading towards the pods on the opposite wall. There are two doors on the southern and northern walls respectively. A pungent smell emanates from behind you from where you removed the cable. ",
+		text:"You are in a large, rectangular, harshly lit room. The eastern and western walls are embedded with bulbous green pods.There's a strange liquid pooling on the floor, which seems to be emanating from the pods on the opposite wall. There are two sleek grey doors on the southern and northern walls. A pungent smell wafts from behind you from where you removed the cable. ",
 		choices:[
 			{
 				text:"Try the southern door.",
@@ -18,7 +18,7 @@ var roomArray = [
 	{
 		//index 1
 		title:'Corridor 1',
-		text:"There's a long grey corridor ahead of you, with two doors on the western side and a door on the northern side. The first door has a plaque that says, 'Batch 3-47B'. The second appears to have been torn apart.   A thin window traverses the length of thae eastern wall, outside of which you can see the expanses of space. A lone blue planet is visible in the distance.  ",
+		text:"There's a long grey corridor ahead of you, with two doors on the western side and a door on the northern side. The first door has a plaque that says, 'Batch 3-47B'. The second appears to have been torn apart.   A thin window traverses the length of the eastern wall, outside of which you can see the expanses of space. A lone blue planet is visible in the distance.  ",
 		choices:[
 			{
 				text:"Go back to the Cryogenics Room",
@@ -86,7 +86,7 @@ var roomArray = [
 },
 {
 	//index 5
-	title:"Experimentation Room",
+	title:"Experimentation Room - Terminal",
 	text:"Upon turning the terminal off, the hum ceases.The tubes immediately empty. The creatures on the table start to jerk and wriggle. Smoke bellows from a nearby vent and a klaxon alarm sounds. You can hear angry chattering over the small radio on the desk. ",
 	choices:[
 		{
