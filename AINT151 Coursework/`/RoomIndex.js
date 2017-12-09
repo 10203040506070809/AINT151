@@ -121,7 +121,6 @@ choices:[
 	//index 8
 title:"Overseers Office",
 text:"Upon closer inspection, the terminal appears to be turned off. However, next to it is a small letter that appears to have been hastily written. As you read it, a small keycard falls out of it. You pocket it for later. ",
-keyCard:true,
 choices:[
 	{
 		text:"Go back to the Cryogenics Room.",

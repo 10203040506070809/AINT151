@@ -2,22 +2,40 @@ body{background-color: black;}
 *{
   display: block;
   margin: auto;
+
+
 }
+
 h3{
   width:50%;
-}p{
+}
+
+p{
   font-style: oblique;
   width:50%;
 
 }
 
 #image1{
-  top: 200px;
+  padding-top:10px;
   width:50%;
   height:30%;
   }
 
 #image2{
+ padding-top:10px;
+ padding-bottom:10px;
   width: 20%;
   height:20%;
+}
+
+#menu{
+
+  text-decoration: underline;
+  position:relative;
+   top: -500px;
+  color: white;
+
+  float:left;
+
 }

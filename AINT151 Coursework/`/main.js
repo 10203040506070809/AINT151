@@ -3,8 +3,8 @@ function OnLoad()
 
 {
 
-	var keyCard;
-	keyCard == false;
+
+
 
 
 	SelectRoom(6);
