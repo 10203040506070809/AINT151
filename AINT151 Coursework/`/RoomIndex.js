@@ -4,6 +4,7 @@ var roomArray = [
 		//index 0
 		title:"Cryogenics Room",
 		text:"You are in a large, rectangular, harshly lit room. The eastern and western walls are embedded with bulbous green pods.There's a strange liquid pooling on the floor, which seems to be emanating from the pods on the opposite wall. There are two sleek grey doors on the southern and northern walls. A pungent smell wafts from behind you from where you removed the cable. ",
+    images: "img/Terminal.jpg",
 		choices:[
 			{
 				text:"Try the southern door.",
