@@ -202,8 +202,60 @@ choices:[
 	},
 	{
 		text:"Enter the Deployment room",
-		index:12
+		index:13
 	},
+]
+},
+//index 12
+{
+title:"Captain's Quarters",
+	images: "img/placeholder.jpg",
+text:"",
+choices:[
+{
+	text:"Return to the Corridor.",
+	index:11
+},
+{
+	text:"Steal the key card",
+	index:19
+},
+{
+	text:"Create a distraction",
+	index:14
+},
+]
+},
+//index 13
+{
+title:"Deployment Room",
+	images: "img/placeholder.jpg",
+text:"",
+choices:[
+{
+	text:"Return to the Corridor.",
+	index:11
+},
+{
+	text:"Steal the Captains' personal cruiser.",
+	index:14
+},
+]
+},
+//index 14
+{
+title:"Spacecraft",
+	images: "img/placeholder.jpg",
+text:"",
+choices:[
+{
+	text:"Return to the Corridor.",
+	index:11
+},
+{
+	text:"Steal the Captains' personal cruiser.",
+	index:14
+},
 ]
 },
 ]
