@@ -14,14 +14,14 @@ function SelectRoom(roomIndex)
 	for (var i = 0; i < roomArray[roomIndex].choices.length; i++){
 		document.getElementById('roomChoices').innerHTML += "<button onClick='SelectRoom("+roomArray[roomIndex].choices[i].index+")'>"  + roomArray[roomIndex].choices[i].text + "</button>";
 		document.getElementById('image1').src = roomArray[roomIndex].images;
-KeyCard1();
+KeyCard();
 
 
 
 
 }
 
-function KeyCard1(){
+function KeyCard(){
 
 	if (roomIndex == 8){
 			roomArray[1].choices[3].keyCard = true;
@@ -30,11 +30,9 @@ function KeyCard1(){
 		}
 		if (roomIndex == 9) {
 			if (roomArray[1].choices[3].keyCard == false) {
-							PlayerMessage.innerHTML = "You do not have the keycard.";
+							alert("You do not have the keycard.");
 							SelectRoom(1);
 			}
-			if (roomIndex != 9 && keyCard == false){
-				PlayerMessage.innerHTML = "";
 			}
-		}}
+		}
 }

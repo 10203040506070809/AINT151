@@ -8,14 +8,14 @@ var roomArray = [
 		There's a strange liquid pooling on the floor, which seems to be emanating from the pods on the opposite wall.\
 		 There are two sleek grey doors on the southern and northern walls.\
 		  A pungent smell wafts from behind you from where you removed the cable. ",
-    images: "img/Terminal.jpg",
+    images: "img/placeholder.jpg",
 		choices:[
 			{
-				text:"Try the southern door.",
+				text:"Try the northern door.",
 				index:1
 			},
 			{
-				text:"Try the northern door.",
+				text:"Try the southern door.",
 				index:2
 			}
 		]
@@ -27,7 +27,7 @@ var roomArray = [
 		 The first door has a plaque that says, 'Batch 3-47B'. \
 		The second appears to have been torn apart.\
 		   A thin window traverses the length of the eastern wall, outside of which you can see the expanses of space. A lone blue planet is visible in the distance.  ",
-		images: "img/placeholder.jpg",
+		images: "img/earth2.jpg",
 		choices:[
 			{
 				text:"Go back to the Cryogenics Room",
@@ -197,12 +197,76 @@ title:"Corridor 2",
 text:"",
 choices:[
 	{
+		text:"Return to the barracks",
+		index:10
+	},
+	{
 		text:"Enter the Captains' quarters.",
 		index:12
 	},
 	{
-		text:"Enter the Deployment room",
-		index:12
+		text:"Enter the personal hangar",
+		index:13
+	},
+]
+},
+{
+	//index 12
+title:"Captains Quarters",
+		images: "img/placeholder.jpg",
+text:"",
+choices:[
+	{
+		text:"Return to the corridor",
+		index:11
+	},
+	{
+		text:"Steal the keycard from the captain",
+		index:19
+	},
+	{
+		text:"Create a distraction",
+		index:14
+	},
+]
+},
+{
+	//index 13
+title:"Captain's personal hangar",
+		images: "img/placeholder.jpg",
+text:"",
+choices:[
+	{
+		text:"Return to the corridor",
+		index:11
+	},
+	{
+		text:"Steal the Captain's personal cruiser",
+		index:15
+	},
+]
+},
+{
+	//index 14
+title:"Captains Quarters",
+		images: "img/placeholder.jpg",
+text:"",
+choices:[
+	{
+		text:"Return to the corridor",
+		index:11
+	},
+]
+},
+//index 15
+{
+title:"Inside the Captain's personal cruiser",
+		images: "img/placeholder.jpg",
+text:"",
+choices:[
+	{
+		text:"Restart the game",
+		index:19
 	},
 ]
 },
