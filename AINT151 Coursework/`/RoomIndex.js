@@ -279,6 +279,7 @@ choices:[
 	},
 ]
 },
+//index 16
 {
 title:"Death",
 		images: "img/placeholder.jpg",

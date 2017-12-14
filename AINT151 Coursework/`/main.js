@@ -7,7 +7,7 @@ var uniform = false;
 function OnLoad()
 {
 
-	SelectRoom(11);
+	SelectRoom(6);
 
 }
 
