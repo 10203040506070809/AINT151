@@ -36,7 +36,7 @@ function SelectRoom(roomIndex)
 	 SelectRoom(16)
  document.getElementById('roomText').innerHTML = "The captain takes one look at your naked body and disregards everything you've said, slaying you at once.";
 }
-if (roomIndex == 16){
+if (roomIndex == 0){
 	barrackskeycard = false;
 	captainsKeyCard = false;
 
