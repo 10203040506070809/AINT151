@@ -115,6 +115,7 @@ var roomArray = [
 				images: "img/terminalyn.jpg",
 	choices:[
 		{
+			text:"You are dead.",
 			index:16
 		},
 	]

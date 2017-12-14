@@ -34,7 +34,12 @@ function SelectRoom(roomIndex)
  }
  if (roomIndex == 14 && uniform == false){
 	 SelectRoom(16)
- document.getElementById('roomText').innerHTML = "The captain takes one look at your naked body and disregards everything you've said, slaying you at once."
+ document.getElementById('roomText').innerHTML = "The captain takes one look at your naked body and disregards everything you've said, slaying you at once.";
+}
+if (roomIndex == 16){
+	barrackskeycard = false;
+	captainsKeyCard = false;
+
 }
 KeyCard();
 CaptKeyCard();
