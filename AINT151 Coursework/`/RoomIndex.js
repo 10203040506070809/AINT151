@@ -43,7 +43,6 @@ var roomArray = [
 			},
 			{
 				text:"Enter the northern door.",
-				keyCard: false,
 				index:9
 			}
 		]
@@ -113,10 +112,10 @@ var roomArray = [
 	You can hear angry chattering over the small radio on the desk.\
 	 One of the creatures sits up and smells the blood on you. Before you can move, he is upon you.\
 		In a flash of jumbled body parts, you are no more.",
-				images: "img/terminal2.jpg",
+				images: "img/terminalyn.jpg",
 	choices:[
 		{
-			index:19
+			index:16
 		},
 	]
 },
@@ -150,7 +149,7 @@ choices:[
 {
 	//index 8
 title:"Overseers Office",
-		images: "img/placeholder.jpg",
+		images: "img/terminalorig.jpg",
 text:"Upon closer inspection, the terminal appears to be turned off. \
 However, next to it is a small letter that appears to have been hastily written.\
  As you read it, a small keycard falls out of it. You pocket it for later. ",
@@ -166,7 +165,9 @@ choices:[
 	//index 9
 title:"Barracks",
 		images: "img/placeholder.jpg",
-text:"Upon entry, the door behind you closes and appears to require a new key card. A freshly pressed uniform lays upon a ",
+text:"Upon entry, the door behind you closes and appears to short out. Surrounding you appears to be a multitude of empty camp beds evenly spaced throughout the room. \
+On one of the closer beds, a freshly pressed uniform lays. \
+On the eastern wall two guards lay dozing in their respective beds. Between them an archway into another hallway is visible. ",
 choices:[
 	{
 		text:"Take the uniform",
@@ -174,7 +175,7 @@ choices:[
 	},
 	{
 		text:"Try to sneak past the guards.",
-		index:19
+		index:11
 	}
 ]
 },
@@ -194,7 +195,9 @@ choices:[
 	//index 11
 title:"Corridor 2",
 		images: "img/placeholder.jpg",
-text:"",
+text:"You arrive in a long grey corridor, with an expansive window on the northern side.\
+ On the western side, a clean silver door is open and through it you can see a desk and an important looking man. \
+Assumedly, this is the Captain’s quarters. On the eastern side, a worn double door is visible.",
 choices:[
 	{
 		text:"Return to the barracks",
@@ -214,7 +217,10 @@ choices:[
 	//index 12
 title:"Captains Quarters",
 		images: "img/placeholder.jpg",
-text:"",
+text:"Upon entry into this lavish room you notice the Captain sat at his desk writing nonchalantly upon data pads. \
+He appears not to have noticed your arrival.  Surrounding him are trophies, treasures and artifacts galore from civilisations you don’t recognise. \
+Behind him on the far wall, a more chilling sight is present. \
+Several different species’ heads appear to be mounted in differing faces of terror for all to see. Among them, you spot a human head.",
 choices:[
 	{
 		text:"Return to the corridor",
@@ -222,7 +228,7 @@ choices:[
 	},
 	{
 		text:"Steal the keycard from the captain",
-		index:19
+		index:16
 	},
 	{
 		text:"Create a distraction",
@@ -232,9 +238,11 @@ choices:[
 },
 {
 	//index 13
-title:"Captain's personal hangar",
+title:"Hangar",
 		images: "img/placeholder.jpg",
-text:"",
+text:"You arrive on the balcony of a huge room with a set of stairs leading down to the main hangar bay.\
+ The room is filled with a huge amount of spacecraft - some derelict and others seeming to be in relatively decent shape, ranging from small scout ships to heavy transport vessels. \
+Among these crafts however a ship is separated from the others. It appears to be a meticulously clean, heavily modified assault orientated ship. ",
 choices:[
 	{
 		text:"Return to the corridor",
@@ -243,6 +251,7 @@ choices:[
 	{
 		text:"Steal the Captain's personal cruiser",
 		index:15
+
 	},
 ]
 },
@@ -250,7 +259,7 @@ choices:[
 	//index 14
 title:"Captains Quarters",
 		images: "img/placeholder.jpg",
-text:"",
+text:"You alert the Captain that there is an escaped prisoner aboard the ship and he rushes past you. While he’s distracted, you pocket the keycard for later.",
 choices:[
 	{
 		text:"Return to the corridor",
@@ -262,11 +271,23 @@ choices:[
 {
 title:"Inside the Captain's personal cruiser",
 		images: "img/placeholder.jpg",
-text:"",
+text:"You’ve escaped the clutches of your captors and have secured your own freedom. ",
 choices:[
 	{
 		text:"Restart the game",
-		index:19
+		index:0
+	},
+]
+},
+{
+title:"Death",
+		images: "img/placeholder.jpg",
+text:"Oh dear, you have died. \
+<br/> Restart? ",
+choices:[
+	{
+		text:"Restart the game",
+		index:0
 	},
 ]
 },
