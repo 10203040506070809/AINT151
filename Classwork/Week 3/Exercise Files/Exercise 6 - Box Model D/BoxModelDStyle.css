@@ -1,0 +1,42 @@
+
+#container{
+ width: 900px;
+ height: 600px;
+  margin: 0 auto;
+}
+ #header{
+text-align: center;
+  background-color:lightgrey;
+  width:900px;
+  height:70px;
+  margin-bottom: 10px;
+}
+
+.leftitem{
+  float:left;
+  text-align: center;
+  background-color:lightgrey;
+  width:600px;
+  height:100px;
+margin-bottom:10px;
+}
+
+#maincontent{
+float:left;
+  text-align: center;
+  background-color:lightgrey;
+  width:390px;
+  height:500px;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+#rightmenu{
+  float:right;
+  text-align: center;
+  background-color:lightgrey;
+  width:290px;
+  height:430px;
+margin-bottom:10px;
+}
