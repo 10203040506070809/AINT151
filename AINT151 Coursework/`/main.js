@@ -36,13 +36,13 @@ function SelectRoom(roomIndex)
 	 SelectRoom(16)
  document.getElementById('roomText').innerHTML = "The captain takes one look at your naked body and disregards everything you've said, slaying you at once.";
 }
-if (roomIndex == 16){
-	barrackskeycard = false;
-	captainsKeyCard = false;
-
+if (roomIndex == 12 && captainsKeyCard == true){
+	document.getElementById('roomChoices').innerHTML = "<button onClick='SelectRoom("+roomArray[roomIndex].choices[0].index+")'>"  + roomArray[roomIndex].choices[0].text + "</button>";
+	document.getElementById('roomText').innerHTML = "You've already distracted the captain and taken the keycard from here.";
 }
 KeyCard();
 CaptKeyCard();
+Reset();
 }
 
 
@@ -74,5 +74,11 @@ captainsKeyCard = true;
 			}
 			}
 
+}
+function Reset(){
+	if (roomIndex == 6){
+		barrackskeycard = false;
+		captainsKeyCard = false;
+	}
 }
 }

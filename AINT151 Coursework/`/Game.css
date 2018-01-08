@@ -1,4 +1,6 @@
 body{background-color: black;}
+
+
 *{
   display: block;
   margin: auto;
@@ -6,7 +8,7 @@ body{background-color: black;}
 
 }
 
-h3{
+h1{
   width:50%;
 }
 
@@ -28,15 +30,4 @@ p{
  padding-bottom:10px;
   width: 300px;
   height:300px;
-}
-
-#menu{
-
-  text-decoration: underline;
-  position:relative;
-
-  color: white;
-
-  float:left;
-
 }

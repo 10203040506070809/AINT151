@@ -8,7 +8,7 @@ var roomArray = [
 		There's a strange liquid pooling on the floor, which seems to be emanating from the pods on the opposite wall.\
 		 There are two sleek grey doors on the southern and northern walls.\
 		  A pungent smell wafts from behind you from where you removed the cable. ",
-    images: "img/placeholder.jpg",
+    images: "img/cryogenics.jpg",
 		choices:[
 			{
 				text:"Try the northern door.",
@@ -52,7 +52,7 @@ var roomArray = [
 		title:"Overseers Office",
 		text:"You are in a small room with a terminal in the center, facing away from you.\
 		 The room is thick with dust. You can hear rustling coming from a nearby cabinet.   ",
-    images: "img/placeholder.jpg",
+    images: "img/Overseers.jpg",
 		choices:[
 			{
 				text:"Go back to the Cryogenics room.",
@@ -91,7 +91,7 @@ var roomArray = [
 			One of the tables seems recently vacated and nearby a small desk with a terminal on it is visible.\
 			 Slumped against a chair is a plant-like biped. Their body appears to have been ripped apart.\
 			  Next to them, a terminal is visible. On the screen is a single sentence, 'Release? Y/N'",
-		images: "img/placeholder.jpg",
+		images: "img/terminalyn.jpg",
 		choices:[
 			{
 				text:"Crawl back through the door.",
@@ -126,7 +126,7 @@ title:"Cryogenics Room",
 text:"Opening your eyes, you can see a thick blue liquid enveloping you. \
 As panic starts to set in,  your pod starts to slowly drain and eventually opens up.\
  You are however, stuck to the pod via a thick pulsating cable protruding from your neck. ",
-images: "img/placeholder.jpg",
+images: "img/cryogenics.jpg",
 choices:[
 	{
 		text:"Remove the cable from your neck.",
@@ -150,11 +150,11 @@ choices:[
 {
 	//index 8
 title:"Overseers Office",
-		images: "img/terminalorig.jpg",
+
 text:"Upon closer inspection, the terminal appears to be turned off. \
 However, next to it is a small letter that appears to have been hastily written.\
  As you read it, a small keycard falls out of it. You pocket it for later. ",
-
+		images: "img/terminalorig.jpg",
 choices:[
 	{
 		text:"Go back to the Cryogenics Room.",
@@ -195,7 +195,7 @@ choices:[
 {
 	//index 11
 title:"Corridor 2",
-		images: "img/placeholder.jpg",
+		images: "img/corridor2.jpg",
 text:"You arrive in a long grey corridor, with an expansive window on the northern side.\
  On the western side, a clean silver door is open and through it you can see a desk and an important looking man. \
 Assumedly, this is the Captain’s quarters. On the eastern side, a worn double door is visible.",
@@ -240,7 +240,7 @@ choices:[
 {
 	//index 13
 title:"Hangar",
-		images: "img/placeholder.jpg",
+		images: "img/hangarbay.jpg",
 text:"You arrive on the balcony of a huge room with a set of stairs leading down to the main hangar bay.\
  The room is filled with a huge amount of spacecraft - some derelict and others seeming to be in relatively decent shape, ranging from small scout ships to heavy transport vessels. \
 Among these crafts however a ship is separated from the others. It appears to be a meticulously clean, heavily modified assault orientated ship. ",
@@ -259,7 +259,7 @@ choices:[
 {
 	//index 14
 title:"Captains Quarters",
-		images: "img/placeholder.jpg",
+		images: "img/captainsquarters.png",
 text:"You alert the Captain that there is an escaped prisoner aboard the ship and he rushes past you. While he’s distracted, you pocket the keycard for later.",
 choices:[
 	{
@@ -271,25 +271,25 @@ choices:[
 //index 15
 {
 title:"Inside the Captain's personal cruiser",
-		images: "img/placeholder.jpg",
+		images: "img/freedom.jpg",
 text:"You’ve escaped the clutches of your captors and have secured your own freedom. ",
 choices:[
 	{
 		text:"Restart the game",
-		index:0
+		index:6
 	},
 ]
 },
 //index 16
 {
 title:"Death",
-		images: "img/placeholder.jpg",
+		images: "img/You-Died.jpg",
 text:"Oh dear, you have died. \
 <br/> Restart? ",
 choices:[
 	{
 		text:"Restart the game",
-		index:0
+		index:6
 	},
 ]
 },
