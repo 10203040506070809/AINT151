@@ -69,7 +69,7 @@ var roomArray = [
 			title:"Batch 3-47B Room",
 			text:"Upon entry a bright white light splutters at you, blinding you temporarily before turning off. \
 			As your eyes once again attune to the brightness, you can make out large cylinders flowing with some glowing cyan substance.  ",
-		images: "img/placeholder.jpg",
+		images: "img/Cryonics.jpg",
 			choices:[
 				{
 					text:"Go back to the hallway",
@@ -139,7 +139,7 @@ choices:[
 title:"Batch 3-47B Room",
 text:"Upon further inspection, the cylinders appear to contain the same liquid that you had previously encountered. \
 There also appears to be a small creature of differing appearance in each of the containers.",
-		images: "img/placeholder.jpg",
+		images: "img/Cryonics.jpg",
 choices:[
 	{
 		text:"Go back to the hallway.",
@@ -165,7 +165,7 @@ choices:[
 {
 	//index 9
 title:"Barracks",
-		images: "img/placeholder.jpg",
+		images: "img/barracks.jpg",
 text:"Upon entry, the door behind you closes and appears to short out. Surrounding you appears to be a multitude of empty camp beds evenly spaced throughout the room. \
 On one of the closer beds, a freshly pressed uniform lays. \
 On the eastern wall two guards lay dozing in their respective beds. Between them an archway into another hallway is visible. ",
@@ -183,7 +183,7 @@ choices:[
 {
 	//index 10
 title:"Barracks",
-		images: "img/placeholder.jpg",
+		images: "img/barracks.jpg",
 text:"You put the uniform on and feel as though guards will be more likely to ignore you. ",
 choices:[
 	{
@@ -217,7 +217,7 @@ choices:[
 {
 	//index 12
 title:"Captains Quarters",
-		images: "img/placeholder.jpg",
+		images: "img/captainsquarters.png",
 text:"Upon entry into this lavish room you notice the Captain sat at his desk writing nonchalantly upon data pads. \
 He appears not to have noticed your arrival.  Surrounding him are trophies, treasures and artifacts galore from civilisations you don’t recognise. \
 Behind him on the far wall, a more chilling sight is present. \
@@ -240,7 +240,7 @@ choices:[
 {
 	//index 13
 title:"Hangar",
-		images: "img/hangarbay.jpg",
+		images: "img/hangarbay.png",
 text:"You arrive on the balcony of a huge room with a set of stairs leading down to the main hangar bay.\
  The room is filled with a huge amount of spacecraft - some derelict and others seeming to be in relatively decent shape, ranging from small scout ships to heavy transport vessels. \
 Among these crafts however a ship is separated from the others. It appears to be a meticulously clean, heavily modified assault orientated ship. ",
